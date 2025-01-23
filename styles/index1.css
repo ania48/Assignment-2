@@ -104,7 +104,8 @@ main {
     font-size: 1.25rem;
     padding: 10px 60px;
 }
-#menubar{
+
+#menubar {
     display: none;
 }
 
@@ -266,15 +267,17 @@ main {
     width: 50px;
     border-radius: 50%;
     padding: 18px;
+    margin-right: 10px;
     border: none;
     background-color: orange;
     color: azure;
     font-weight: 700;
-
-
-
 }
-
+.round-button:hover{
+    background-color: cadetblue;
+    transform: scale(1.25) rotate(90deg);
+    transition: transform 0.5s;
+}
 .button-7 {
     width: 197px;
     height: 50px;
@@ -285,10 +288,12 @@ main {
     font-size: 1.25rem;
     font-weight: 700;
 }
-.btn{
+
+.btn {
     margin-top: 80px;
     margin-bottom: 60px;
 }
+
 .story-class {
     background: linear-gradient(to top, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
 
@@ -311,7 +316,7 @@ main {
 }
 
 .big-card {
-padding-bottom: 35px;
+    padding-bottom: 35px;
     background-color: white;
     border-radius: 16px;
 
@@ -390,7 +395,7 @@ padding-bottom: 35px;
 
 .s-button {
     background-color: rgb(149, 178, 38);
-   padding:9px 18px;
+    padding: 9px 18px;
     border-radius: 47px;
     color: white;
     font-weight: 500;
@@ -487,81 +492,120 @@ padding-bottom: 35px;
     margin-bottom: 20px;
 }
 
-.none{
+.none {
     display: none;
 }
-@media screen  and (max-width:576px) {
-    .nav-title{
+
+@media screen and (max-width:576px) {
+    .nav-title {
         display: none;
     }
-    .nav-links{
+
+    .nav-links {
         display: none;
     }
-    .button-1{
+
+    .button-1 {
         display: none;
     }
-    #menubar{
+
+    #menubar {
         display: unset;
     }
-    .navbar{
+
+    .navbar {
         padding: 12px 20px;
-        border: 2px solid orange;
+        border: 1px solid orange;
         margin-top: 0px;
     }
-    .hero-kid{
+
+    .hero-kid {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         padding: 0px 20px;
     }
-    .hero-kid img{
+
+    .hero-kid img {
         width: 100%;
     }
-    .hero{
+
+    .hero {
         justify-content: center;
         align-items: center;
     }
-    .hero-kid-paragraph{
+
+    .hero-kid-paragraph {
         text-align: center;
     }
-    .hero-kid-title{
+
+    .hero-kid-title {
         text-align: center;
     }
-    .cards{
+
+    .cards {
         flex-direction: column;
-        gap:13px;
-        
+        gap: 13px;
+
     }
-    .curriculam{
+
+    .curriculam {
         padding: 20px;
     }
-    .card-title{
+
+    .card-title {
         font-size: 1.8rem;
         margin-bottom: 30px;
     }
-    .r-button{
+
+    .r-button {
         display: none;
     }
-    .big-card{
+
+    .big-card {
         display: none;
     }
-    .small-card img{
+
+    .small-card img {
         width: 100%;
     }
-    .collage{
+
+    .collage {
         padding: 0px 12px;
     }
-    .story-paragraph{
-        margin-left:10px;
+
+    .story-paragraph {
+        margin-left: 10px;
     }
-    .small-button{
+
+    .small-button {
         margin-left: 10px;
         bottom: 18px;
 
     }
-    .s-button{
+
+    .s-button {
         padding: 7px;
         font-size: 0.7rem;
+    }
+
+    .btn {
+        margin-top: 30px;
+
+        margin-bottom: 30px;
+    }
+
+    .story-title {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 2.3rem;
+    }
+    .main-div{
+        flex-direction: column;
+        padding: 65px 20px;
+    }
+    .about{
+        margin-top: 20px;
     }
 
 }
