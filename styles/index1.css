@@ -390,8 +390,7 @@ padding-bottom: 35px;
 
 .s-button {
     background-color: rgb(149, 178, 38);
-    width: 180px;
-    height: 38px;
+   padding:9px 18px;
     border-radius: 47px;
     color: white;
     font-weight: 500;
@@ -557,5 +556,12 @@ padding-bottom: 35px;
     }
     .small-button{
         margin-left: 10px;
+        bottom: 18px;
+
     }
+    .s-button{
+        padding: 7px;
+        font-size: 0.7rem;
+    }
+
 }
