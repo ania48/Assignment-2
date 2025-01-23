@@ -285,12 +285,10 @@ main {
     font-size: 1.25rem;
     font-weight: 700;
 }
-
-.btn {
-    margin-left: 622px;
-    margin-right: 622px;
+.btn{
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
-
 .story-class {
     background: linear-gradient(to top, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
 
@@ -304,8 +302,6 @@ main {
 .story-container {
     display: flex;
     gap: 20px;
-
-
 }
 
 .big-card img {
@@ -315,7 +311,7 @@ main {
 }
 
 .big-card {
-
+padding-bottom: 35px;
     background-color: white;
     border-radius: 16px;
 
@@ -363,8 +359,7 @@ main {
 }
 
 .small-card {
-    width: 290px;
-    height: 300px;
+    padding-bottom: 28px;
     border-radius: 16px;
     background-color: white;
 }
@@ -547,5 +542,14 @@ main {
     }
     .r-button{
         display: none;
+    }
+    .big-card{
+        display: none;
+    }
+    .small-card img{
+        width: 100%;
+    }
+    .collage{
+        padding: 0px 12px;
     }
 }
